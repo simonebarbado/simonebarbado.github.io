@@ -3,6 +3,7 @@ body {
     font-size: 14px;
     color: #081c15;
     line-height: 24px;
+    background-color: #eeeeee;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h3 {
 }
 
 .button{
-    color: #d8f3dc;
+    color: #ffffff;
     background-color: #52b788;
     text-decoration: none;
     font-weight: bold;
