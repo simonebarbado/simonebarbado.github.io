@@ -13,12 +13,12 @@ h1 {
     line-height: 10px;
     margin-left: 30px;
     color: #1b4332;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 17px;
+    font-size: 36px;
     line-height: 25px;
     margin-left: 30px;
     color: #2d6a4f;
@@ -92,6 +92,14 @@ li{
     width: 30px;
     position: fixed;
     z-index: 2;
+}
+
+#descricao{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
 }
 
 #fotoperfil {
