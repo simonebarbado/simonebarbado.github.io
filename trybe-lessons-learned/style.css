@@ -6,8 +6,30 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
-  margin-top: 80px;
+  position: fixed;
+  left: 80%;
+}
+
+nav a {
+  color: white;
+}
+
+nav li {
+  list-style: none;
+  text-align: center;
+  padding: 0px 10px;
+  margin-left: -35px;
+}
+
+.button {
+  background-color: #7209b7;
+  border-radius: 5px;
+  width: fit-content;
 }
 
 .lado-esquerdo {
