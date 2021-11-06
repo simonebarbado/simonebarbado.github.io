@@ -35,6 +35,11 @@ nav a {
   line-height: 20px;
 }
 
+table {
+  text-align: center;
+  display: inline-block;
+}
+
 .button-purple {
   background-color: #3f37c9;
   border-radius: 5px;
