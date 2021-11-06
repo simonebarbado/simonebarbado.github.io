@@ -35,6 +35,7 @@ nav li {
   background-color: #7209b7;
   border-radius: 5px;
   width: fit-content;
+  z-index: 1;
 }
 
 .box {
