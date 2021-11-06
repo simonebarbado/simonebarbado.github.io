@@ -84,8 +84,8 @@ li{
 
 .menu-lateral{
     position: fixed;
-    top: 280px;
-    left: 60px;
+    top: 270px;
+    left: 15px;
     text-align: center;
     line-height: 45px;
 }
