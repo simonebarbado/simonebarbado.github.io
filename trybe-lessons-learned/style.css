@@ -87,6 +87,7 @@ table {
   position: relative;
   left: 22%;
   display: inline-block;
+  margin-bottom: 100px;
 }
 
 #licoes_a_aprender {
