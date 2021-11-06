@@ -8,6 +8,11 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
+a {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     line-height: 10px;
