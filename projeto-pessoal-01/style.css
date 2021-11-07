@@ -61,11 +61,19 @@ header {
     text-decoration: none;
 }
 
+.depoimentos {
+    
+}
+
 #header-content {
     max-width: 600px;
     text-align: left;
 }
-
 #marketing {
+    padding: 6em 30px;
+}
 
+
+#marketing h2 {
+    margin-bottom: 40px;
 }
