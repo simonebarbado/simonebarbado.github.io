@@ -15,6 +15,7 @@ h1 {
     font-weight: 600;
     font-size: 45px;
     letter-spacing: -1px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -33,9 +34,15 @@ h2, h3, h4 {
     color: #11a36a;
 }
 
+p {
+    line-height: 24px;
+}
+
 p, li {
     font-size: 16px;
     color: #475550;
+    line-height: 24px;
+    list-style: none;
 }
 
 header {
@@ -43,6 +50,24 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px 30px 40px;
+}
+
+header p {
+    margin: 30px 0px;
+    line-height: 24px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+footer h3 {
+    margin-top: 48px;
 }
 
 .pictures {
@@ -59,21 +84,51 @@ header {
     line-height: 20px;
     font-weight: 700;
     text-decoration: none;
+    display: inline-block;
+    margin: 10px;
 }
 
-.depoimentos {
-    
+.student-border {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.student-container {
+    max-width: 25%;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.student-container .pictures {
+    margin: 0 auto;
 }
 
 #header-content {
     max-width: 600px;
     text-align: left;
+    margin-left: 10%;
 }
 #marketing {
     padding: 6em 30px;
+    margin: 0px 10%;
+    text-align: center;
 }
-
 
 #marketing h2 {
     margin-bottom: 40px;
+}
+
+#formacao {
+    text-align: center;
+    background-image: url(img/learning-web.jpeg);
+    padding: 100px 10%;
+    text-align: left;
+}
+
+#formacao h2 {
+    line-height: 64px;
+}
+
+#formacao li {
+    max-width: 600px;
 }
