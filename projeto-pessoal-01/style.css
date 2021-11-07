@@ -1,2 +1,9 @@
 
-.pictures
+.pictures {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.button {
+    
+}
