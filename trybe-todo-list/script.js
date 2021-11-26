@@ -2,13 +2,12 @@
   // Pesquisei como resgatar valores do local storage em: https://developer.mozilla.org/pt-BR/docs/Web/API/Storage/getItem
   window.onload = function inicio() {
     let listaDeTarefas = document.getElementById('lista-tarefas');
-    if (listaDeTarefas.contains = `undefined`) {
+    listaDeTarefas.innerHTML = localStorage.tarefasSalvas;
+    if (localStorage.tarefasSalvas === undefined) {
       listaDeTarefas.innerHTML = '';
-    } else {
-      listaDeTarefas.innerHTML = localStorage.tarefasSalvas;
     }
   }
-  
+
 // Botão criar tarefa
 function criarTarefa() {
   // Receber o input
