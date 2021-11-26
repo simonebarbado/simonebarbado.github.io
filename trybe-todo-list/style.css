@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  background-color: rgb(87, 164, 146);
+  color: white;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+header {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(46, 105, 83);
+}
+
+input {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  padding: 8px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+}
+
+p {
+  text-align: center;
+}
+
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+.background-color {
+  background-color: rgb(128, 128, 128);
+  border-radius: 5px;
+}
