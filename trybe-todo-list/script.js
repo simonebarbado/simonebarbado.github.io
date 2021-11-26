@@ -2,9 +2,10 @@
   // Pesquisei como resgatar valores do local storage em: https://developer.mozilla.org/pt-BR/docs/Web/API/Storage/getItem
 window.onload = function inicio() {
   let listaDeTarefas = document.getElementById('lista-tarefas');
-  listaDeTarefas.innerHTML = localStorage.tarefasSalvas;
-  if (listaDeTarefas.innerHTML == `undefined`) {
+  if (listaDeTarefas.contains = `undefined`) {
     listaDeTarefas.innerHTML = '';
+  } else {
+    listaDeTarefas.innerHTML = localStorage.tarefasSalvas;
   }
 }
 
