@@ -3,6 +3,9 @@
 window.onload = function inicio() {
   let listaDeTarefas = document.getElementById('lista-tarefas');
   listaDeTarefas.innerHTML = localStorage.tarefasSalvas;
+  if (listaDeTarefas.innerHTML == `undefined`) {
+    listaDeTarefas.innerHTML = '';
+  }
 }
 
 // Botão criar tarefa
