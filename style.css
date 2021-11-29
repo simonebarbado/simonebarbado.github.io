@@ -7,7 +7,7 @@
 
 a {
     text-decoration: none;
-    color: #3b3b3b;
+    color: white;
 }
 
 body {
@@ -38,11 +38,11 @@ h3 {
 li {
     text-decoration: none;
     list-style: none;
+    color: white;
 }
 
 main {
-    background-color: #1b4332;
-    padding: 30px 0;
+    padding: 100px 0 0 0;
 }
 
 nav ul {
@@ -58,19 +58,24 @@ nav {
     margin-bottom: 400px;
 }
 
-nav li {
+nav li a {
     margin-right: 10px;
+    color: #3b3b3b;
 }
 
 .button-menu {
     border: 2px solid #2d6a4f;
-    color: white;
     font-weight: bold;
     padding: 8px 16px;
     border-radius: 100px;
     font-size: 12px;
     line-height: 20px;
     text-align: center;
+}
+
+.fundo-verde {
+    background-color: #1b4332;
+    padding: 90px;
 }
 
 .info-pessoais {
